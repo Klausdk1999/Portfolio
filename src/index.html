@@ -23,7 +23,7 @@
     content="klausdk1999, Klaus, Dieter, Kupper, JavaScript, TypeScript, API, React, Node, NextJS, Developer, Software, Engineer" />
   <!-- Todo: improve your SEO by adding a small description of you -->
   <meta name="description"
-    content="Klaus Dieter Kupper Developer Portfolio. Tech Stack: ReactJS, NodeJS, JavaScript, TypeScript,
+    content="Klaus Dieter Kupper Developer Portfolio. Tech Stack: ReactJS, NodeJS, JavaScript, TypeScript, Golang,
      ExpressJS, NextJS, HTML, CSS, SQL, NoSQL, C#, C++, C, Arduino, Python, Java, Jest, Cypress, AWS, Docker,
       Code Arquitecture and OOP. Estudante na Driven Education e estudante na UFSC - Universidade Federal de Santa Catarina" />
 
@@ -31,15 +31,12 @@
   <link rel="stylesheet" href="styles.scss" />
   <script defer src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
-  <!-- Todo: remove the below script once you finish your portfolio -->
-  <script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
 
-<!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
 
 <body>
   <div id="top"></div>
-
+https://quickpay.vercel.app/login
   <!-- **** Hero Section **** -->
   <section id="hero" class="jumbotron">
     <div class="container">
@@ -53,9 +50,7 @@
       </p>
     </div>
   </section>
-  <!-- /END Hero Section -->
 
-  <!-- **** About Section **** -->
   <section id="about">
     <div class="container">
       <h2 class="section-title load-hidden">Sobre mim</h2>
@@ -69,22 +64,16 @@
         <div class="col-md-6 col-sm-12">
           <div class="about-wrapper__info load-hidden">
             <p class="about-wrapper__info-text">
-              Sou engenheiro de automação completando 2 anos de experiência como desenvolvedor,
-              em busca de uma nova oportunidade para me destacar e fazer a diferença,
+              Sou Engenheiro de Controle e Automação, programo a mais de 6 anos e possuo 3 anos de experiência profissional como engenheiro de software,
               eu sou o cara que resolve problemas. Amo o que faço e estou sempre em busca de novas tecnologias para
               adicionar aos meus projetos.
             </p>
             <p class="about-wrapper__info-text">
-              ReactJS, NodeJS, JavaScript, TypeScript, ExpressJS, NextJS, HTML, CSS, SQL, NoSQL, C#, C++, C, Arduino,
+              ReactJS, NodeJS, JavaScript, TypeScript, Golang, ExpressJS, NextJS, HTML, CSS, SQL, NoSQL, C#, C++, C, Arduino,
               Python, Java, Jest, Cypress, AWS, Docker, Arquitetura de código e POO.
             </p>
-            <p class="about-wrapper__info-text">
-              Estou no caminho para me tornar referência em desenvolvimento web e ajudar o open source a crescer, até
-              lá, estou
-              aprendendo muito sozinho e financiando minhas plantas e animais de estimação!
-            </p>
             <span class="d-flex mt-3">
-              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="assets/CvKlausDev.pdf">
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="assets/PT_Cv_Klaus.pdf">
                 Ver currículo
               </a>
             </span>
@@ -93,15 +82,172 @@
       </div>
     </div>
   </section>
-  <!-- /END About Section -->
 
-  <!-- **** Projects Section **** -->
   <section id="projects">
     <div class="container">
       <div class="project-wrapper">
         <h2 class="section-title dark-blue-text">Projetos</h2>
 
-        <!-- Notice: each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">Modelo de IA para Classificação de Imagens</h3>
+              <div>
+                <p class="mb-4">
+                  Desenvolvido em Python, utilizando a biblioteca TensorFlow e Keras, o modelo foi treinado para classificar imagens de casas e arvores. Ao final do python notebook, é possível ver a acurácia do modelo e alguns resultados.
+                </p>
+              </div>
+              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/Klausdk1999/IA_Image_Classification">
+                Código fonte
+              </a> 
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
+                href="https://github.com/Klausdk1999/IA_Image_Classification/blob/main/ArvoreXCasaKlaus.ipynb">
+                Veja os resultados
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              
+              <a rel="noreferrer" href="https://github.com/Klausdk1999/IA_Image_Classification/blob/main/ArvoreXCasaKlaus.ipynb" target="_blank">
+                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid" src="assets/ia.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">FileFinder dir.c</h3>
+              <div>
+                <p class="mb-4">
+                  Implementa uma versão simplificada do comando Unix find. Este comando permite procurar a localização de um arquivo ou diretório, a partir do seu nome. Por exemplo: find . -name foto.jpeg O comando acima irá procurar recursivamente, a partir do diretório atual (.),
+                   todas as ocorrências de arquivos ou diretórios com o nome foto.jpeg. Ao encontrar uma ocorrência, ele exibe o caminho relativo até sua localização, por exemplo: ./semana/trabalho/foto.jpeg ./viagem/foto.jpeg
+                </p>
+              </div>
+              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/Klausdk1999/FindFiles">
+                Código fonte
+              </a> 
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="https://github.com/Klausdk1999/FindFiles" target="_blank">
+                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid" src="assets/dir_c.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">Parking Alot</h3>
+              <div>
+                <p class="mb-4">
+                  Projeto Fullstack feito com NextJS, e tailwindcss, para gerenciar um estacionamento, com controle de vagas por sensores, funciona como um mapa para as vagas.
+                </p>
+              </div>
+              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/Klausdk1999/parking-alot">
+                Código fonte
+              </a>
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
+                href="https://parking-alot.vercel.app/">
+                Veja funcionando
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="https://parking-alot.vercel.app/" target="_blank">
+                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid" src="assets/parkingalot.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">Go Data Storage</h3>
+              <div>
+                <p class="mb-4">
+                  API em Go para armazenar leituras de dados recebidas via post request em um banco de dados PostgreSQL, feito como um dos primeiros projetos usando a linguagem Golang
+                </p>
+              </div>
+              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/Klausdk1999/go-data-storage">
+                Código fonte
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="https://github.com/Klausdk1999/go-data-storage" target="_blank">
+                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid" src="assets/Golang.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">Projeto TCC de Engenharia - QuickPay</h3>
+              <div>
+                <p class="mb-4">
+                  Um sistema para automação de pedidos e
+                  compras em pontos de venda, integrando tecnologias modernas de web e IoT. O objetivo é
+                  otimizar o processo de compras, tornando-o mais eficiente e seguro, além de demonstrar a
+                  viabilidade da integração de tecnologias web e IoT em aplicações comerciais. A aplicação
+                  utiliza WebSocket, ReactJS, tRPC, NodeJS e NextJs, juntamente com a API de paga-
+                  mentos do Mercado Pago. Os clientes acessam os produtos através de um link exclusivo
+                  de código QR, realizando pagamentos de forma segura e rápida. Um componente crucial
+                  é a integração com dispositivos para a entrega dos pedidos, através de notificações via
+                  WebSocket. Com base nos resultados, o sistema desenvolvido mostrou-se eficiente e viável,
+                  permitindo a automação de processos e gestão de pedidos.
+
+                  O código fonte do servidor de WebSockets pode ser encontrado no link abaixo.
+                </p>
+              </div>
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
+                href="https://repositorio.ufsc.br/bitstream/handle/123456789/249119/TCC_Klaus___Engenharia_de_Controle_e_Automacao___UFSC_Final_assinado.pdf?sequence=1&isAllowed=y">
+                Artigo
+              </a>
+              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/Klausdk1999/fastify-websocket-server">
+                Código fonte
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="https://quickpay.vercel.app/access" target="_blank">
+                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid" src="assets/arquitetura_quickpay.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
         <div class="row">
           <div class="col-lg-4 col-sm-12">
             <div class="project-wrapper__text load-hidden">
@@ -135,9 +281,7 @@
             </div>
           </div>
         </div>
-        <!-- /END Project -->
 
-        <!-- Notice: each .row is a project -->
         <div class="row">
           <div class="col-lg-4 col-sm-12">
             <div class="project-wrapper__text load-hidden">
@@ -171,9 +315,7 @@
             </div>
           </div>
         </div>
-        <!-- /END Project -->
 
-        <!-- Notice: each .row is a project -->
         <div class="row">
           <div class="col-lg-4 col-sm-12">
             <div class="project-wrapper__text load-hidden">
@@ -205,9 +347,7 @@
             </div>
           </div>
         </div>
-        <!-- /END Project -->
 
-        <!-- Notice: each .row is a project -->
         <div class="row">
           <div class="col-lg-4 col-sm-12">
             <div class="project-wrapper__text load-hidden">
@@ -241,9 +381,7 @@
             </div>
           </div>
         </div>
-        <!-- /END Project -->
 
-        <!-- Notice: each .row is a project -->
         <div class="row">
           <div class="col-lg-4 col-sm-12">
             <div class="project-wrapper__text load-hidden">
@@ -275,13 +413,11 @@
             </div>
           </div>
         </div>
-        <!-- /END Project -->
+
       </div>
     </div>
   </section>
-  <!-- /END Projects Section -->
 
-  <!-- **** Contact Section **** -->
   <section id="contact">
     <div class="container">
       <h2 class="section-title">Contato</h2>
@@ -292,9 +428,7 @@
       </div>
     </div>
   </section>
-  <!-- /END Contact Section -->
 
-  <!-- **** Footer Section **** -->
   <footer class="footer navbar-static-bottom">
     <div class="container">
       <a rel="noreferrer" href="#top" class="back-to-top">
@@ -315,13 +449,12 @@
       <hr />
 
       <p class="footer__text">
-        © 2022 -
+        © 2022
         <a rel="noreferrer" href="https://github.com/Klausdk1999" target="_blank">Klaus Dieter Kupper</a>
       </p>
 
     </div>
   </footer>
-  <!-- /END Footer Section -->
 
   <script defer type="module" src="index.js"></script>
 </body>
